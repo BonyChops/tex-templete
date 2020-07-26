@@ -1,0 +1,61 @@
+\documentclass[a4j, titlepage, dvipdfmx]{jarticle}
+\usepackage{float}
+\usepackage[dvipdfmx]{graphicx}
+\usepackage[dvipdfmx]{color}
+%\usepackage{mediabb}
+\makeatletter
+%https://qiita.com/ta_b0_/items/2619d5927492edbb5b03
+\usepackage{listings,jlisting} %日本語のコメントアウトをする場合jlstlistingが必要
+%ここからソースコードの表示に関する設定
+\lstset{
+  basicstyle={\ttfamily},
+  identifierstyle={\small},
+  commentstyle={\smallitshape},
+  keywordstyle={\small\bfseries},
+  ndkeywordstyle={\small},
+  stringstyle={\small\ttfamily},
+  frame={tb},
+  breaklines=true,
+  columns=[l]{fullflexible},
+  numbers=left,
+  xrightmargin=0zw,
+  xleftmargin=3zw,
+  numberstyle={\scriptsize},
+  stepnumber=1,
+  numbersep=1zw,
+  lineskip=-0.5ex
+}
+%ここまでソースコードの表示に関する設定
+
+\if0
+---------------------------------こめこめこめこめこめこめこめこめこめこめこめ
+\renewcommand{\thefigure}{\arabic{figure}}
+\@addtoreset{figure}{section}
+\makeatother
+\makeatletter
+\renewcommand{\thetable}{\arabic{table}}
+\@addtoreset{table}{section}
+\makeatother
+\makeatletter
+\renewcommand{\theequation}{\arabic{equation}}
+\@addtoreset{equation}{section}
+\makeatother
+---------------------------------こめこめこめこめこめこめこめこめこめこめこめ
+\fi
+
+\if0
+\usepackage{here}
+\usepackage{amssymb}
+\usepackage{amsmath}
+\usepackage{ascmac}
+\usepackage{fancyvrb}
+\usepackage{otf}
+\fi
+\usepackage{url}
+\usepackage{okumacro}
+\usepackage{ascmac}
+
+
+\begin{document}
+
+\end{document}
